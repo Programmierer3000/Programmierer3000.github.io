@@ -1,0 +1,1873 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bewerbung - Tailwind CSS Template</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/glightbox.min.css" />
+    <link rel="stylesheet" href="css/tailwind.css" />
+    <base href="http://localhost:63342/OnePager/src/index.html#contact">
+  </head>
+  <body>
+    <!-- ====== Navbar Section Start -->
+    <header
+      class="
+        header
+        ud-bg-transparent
+        ud-absolute
+        ud-top-0
+        ud-left-0
+        ud-z-40
+        ud-w-full
+        ud-flex
+        ud-items-center
+        ud-transition
+      "
+    >
+      <div class="ud-container">
+        <div
+          class="
+            ud-flex ud-mx-[-16px] ud-items-center ud-justify-between ud-relative
+          "
+        >
+          <div class="ud-px-4 ud-w-60 ud-max-w-full">
+            <a
+              href="index.html"
+              class="header-logo ud-w-full ud-block ud-py-6 lg:ud-py-8"
+            >
+              <img src="./images/logo/logo-1.png" alt="logo" />
+            </a>
+          </div>
+          <div
+            class="ud-flex ud-px-4 ud-justify-between ud-items-center ud-w-full"
+          >
+            <div>
+              <button
+                id="navbarToggler"
+                name="navbarToggler"
+                aria-label="navbarToggler"
+                class="
+                  ud-block
+                  ud-absolute
+                  ud-right-4
+                  ud-top-1/2
+                  ud-translate-y-[-50%]
+                  lg:ud-hidden
+                  focus:ud-ring-2
+                  ud-ring-primary ud-px-3 ud-py-[6px] ud-rounded-lg
+                "
+              >
+                <span
+                  class="
+                    ud-relative
+                    ud-w-[30px]
+                    ud-h-[2px]
+                    ud-my-[6px]
+                    ud-block
+                    ud-bg-dark
+                  "
+                ></span>
+                <span
+                  class="
+                    ud-relative
+                    ud-w-[30px]
+                    ud-h-[2px]
+                    ud-my-[6px]
+                    ud-block
+                    ud-bg-dark
+                  "
+                ></span>
+                <span
+                  class="
+                    ud-relative
+                    ud-w-[30px]
+                    ud-h-[2px]
+                    ud-my-[6px]
+                    ud-block
+                    ud-bg-dark
+                  "
+                ></span>
+              </button>
+              <nav
+                id="navbarCollapse"
+                class="
+                  ud-absolute ud-py-5
+                  lg:ud-py-0 lg:ud-px-4
+                  xl:ud-px-6
+                  ud-bg-white
+                  lg:ud-bg-transparent
+                  ud-shadow-lg ud-rounded-lg ud-max-w-[250px] ud-w-full
+                  lg:ud-max-w-full lg:ud-w-full
+                  ud-right-4 ud-top-full ud-hidden
+                  lg:ud-block lg:ud-static lg:ud-shadow-none
+                "
+              >
+                <ul class="ud-blcok lg:ud-flex">
+                  <li class="ud-relative ud-group">
+                    <a
+                      href="#home"
+                      class="
+                        menu-scroll
+                        ud-text-base ud-text-black
+                        group-hover:ud-text-primary
+                        ud-py-2
+                        lg:ud-py-6 lg:ud-inline-flex lg:ud-px-0
+                        ud-flex ud-mx-8
+                        lg:ud-mr-0
+                      "
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li class="ud-relative ud-group">
+                    <a
+                      href="#about"
+                      class="
+                        menu-scroll
+                        ud-text-base ud-text-black
+                        group-hover:ud-text-primary
+                        ud-py-2
+                        lg:ud-py-6 lg:ud-inline-flex lg:ud-px-0
+                        ud-flex ud-mx-8
+                        lg:ud-mr-0 lg:ud-ml-8
+                        xl:ud-ml-12
+                      "
+                    >
+                      Über mich
+                    </a>
+                  </li>
+                  <li class="ud-relative ud-group">
+                    <a
+                            href="#education"
+                            class="
+                        menu-scroll
+                        ud-text-base ud-text-black
+                        group-hover:ud-text-primary
+                        ud-py-2
+                        lg:ud-py-6 lg:ud-inline-flex lg:ud-px-0
+                        ud-flex ud-mx-8
+                        lg:ud-mr-0 lg:ud-ml-8
+                        xl:ud-ml-12
+                      "
+                    >
+                      Lebenslauf
+                    </a>
+                  </li>
+                  <li class="ud-relative ud-group">
+                    <a
+                            href="#Downloads"
+                            class="
+                        menu-scroll
+                        ud-text-base ud-text-black
+                        group-hover:ud-text-primary
+                        ud-py-2
+                        lg:ud-py-6 lg:ud-inline-flex lg:ud-px-0
+                        ud-flex ud-mx-8
+                        lg:ud-mr-0 lg:ud-ml-8
+                        xl:ud-ml-12
+                      "
+                    >
+                      Downloads
+                    </a>
+                  </li>
+
+
+                  <li class="ud-relative ud-group">
+                    <a
+                      href="#contact"
+                      class="
+                        menu-scroll
+                        ud-text-base ud-text-black
+                        group-hover:ud-text-primary
+                        ud-py-2
+                        lg:ud-py-6 lg:ud-inline-flex lg:ud-px-0
+                        ud-flex ud-mx-8
+                        lg:ud-mr-0 lg:ud-ml-8
+                        xl:ud-ml-12
+                      "
+                    >
+                      Kontakt
+                    </a>
+                  </li>
+
+                </ul>
+              </nav>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ====== Navbar Section End -->
+
+    <!-- ====== Hero Section Start -->
+    <section
+      id="home"
+      class="
+        ud-relative ud-z-10 ud-pt-[150px]
+        lg:ud-pt-[100px]
+        2xl:ud-flex
+        ud-items-center
+        2xl:ud-h-[700px]
+      "
+    >
+      <div class="ud-container">
+        <div class="ud-flex ud-flex-wrap ud-mx-[-16px]">
+          <div class="ud-w-full lg:ud-w-1/2 ud-self-center ud-px-4">
+            <div>
+              <h1 class="ud-text-base ud-font-semibold ud-text-primary ud-mb-3">
+                Hello There 👋 Ich bin
+
+                <span
+                  class="
+                    ud-font-bold ud-text-black ud-text-3xl
+                    sm:ud-text-3xl
+                    md:ud-text-[45px]
+                    ud-leading-tight
+                    sm:ud-leading-tight
+                    md:ud-leading-[50px]
+                    ud-block ud-mt-1
+                  "
+                >
+                  Leo Ferdinand Ebe
+                </span>
+              </h1>
+              <h2
+                class="
+                  ud-font-medium ud-text-body-color ud-text-lg
+                  md:ud-text-xl
+                  ud-mb-5
+                "
+              >
+                20
+
+                <span class="ud-text-black">| motivierter Azubi </span>
+              </h2>
+              <p
+                class="
+                  ud-max-w-[470px]
+                  ud-font-medium
+                  ud-text-body-color
+                  ud-text-base
+                  ud-leading-relaxed
+                  ud-mb-11
+                "
+              >
+                Motivierter Informatik - Interessierter sucht Praktikum
+                Ausbildung zum Fachinformatiker für Anwendungsentwicklung
+              </p>
+              <div class="ud-flex ud-items-center">
+                <a
+                  href="mailto: leoebe2@gmail.com"
+                  class="
+                    ud-text-base
+                    ud-font-semibold
+                    ud-text-white
+                    ud-bg-primary
+                    ud-py-3
+                    ud-px-8
+                    ud-mr-4
+                    hover:ud-shadow-signUp hover:ud-bg-opacity-90
+                    ud-rounded-full ud-transition ud-duration-300 ud-ease-in-out
+                  "
+                >
+                  Kontakt
+                </a>
+                <a
+                  href="#about"
+                  class="
+                    ud-text-base
+                    ud-font-semibold
+                    ud-text-white
+                    ud-bg-black
+                    ud-py-3
+                    ud-px-8
+                    hover:ud-shadow-signUp hover:ud-bg-opacity-90
+                    ud-rounded-full ud-transition ud-duration-300 ud-ease-in-out
+                  "
+                >
+                  Mehr zu mir
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="ud-w-full lg:ud-w-1/2 ud-self-end ud-px-4">
+            <div
+              class="
+                ud-relative ud-mt-12
+                lg:ud-mt-0
+                ud-z-10
+                2xl:ud-absolute 2xl:ud-bottom-0 2xl:ud-right-40
+              "
+            >
+              <img
+                src="./images/hero/kopie_low.png"
+                alt="image"
+                class="ud-max-w-full ud-mx-auto"
+              />
+              <span class="ud-absolute ud-lefter-[-8px] ud-bottom-2 ud--z-1">
+                <svg
+                  width="40"
+                  height="38"
+                  viewBox="0 0 40 38"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.31451 3.18282L32.4926 6.24789C36.3084 6.75249 38.147 11.1986 35.8021 14.2508L21.5587 32.7911C19.2138 35.8434 14.444 35.2126 12.9731 31.6558L4.03852 10.0504C2.56762 6.49355 5.49873 2.67822 9.31451 3.18282Z"
+                    stroke="#4A6CF7"
+                    stroke-width="6"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <span class="ud-absolute ud-left-0 ud-top-32 ud--z-1">
+          <svg
+            width="48"
+            height="95"
+            viewBox="0 0 48 95"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="0.5"
+              cy="47.5"
+              r="47.5"
+              fill="url(#paint0_radial_6:121)"
+            />
+            <defs>
+              <radialGradient
+                id="paint0_radial_6:121"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(0.5) rotate(90) scale(95)"
+              >
+                <stop stop-color="white" />
+                <stop offset="0.569" stop-color="#F0F4FD" />
+                <stop offset="0.993" stop-color="#D9E0F0" />
+              </radialGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="ud-absolute ud-right-0 ud-bottom-0 ud--z-1">
+          <svg
+            width="491"
+            height="490"
+            viewBox="0 0 491 490"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="356.5"
+              cy="356.5"
+              r="356.5"
+              fill="url(#paint0_linear_6:37)"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_6:37"
+                x1="356.5"
+                y1="0"
+                x2="356.5"
+                y2="713"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#1E3BB3" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+      </div>
+    </section>
+    <!-- ====== Hero Section End -->
+
+    <!-- ====== About Section Start -->
+    <section id="about" class="ud-pt-[145px] ud-pb-[120px] ud-relative ud-z-10">
+      <div class="ud-container">
+        <div class="ud-flex ud-flex-wrap ud-mx-[-16px]">
+          <div
+            class="
+              ud-w-full
+              lg:ud-w-1/2
+              xl:ud-w-7/12
+              ud-px-4 ud-mb-8
+              lg:ud-mb-0
+            "
+          >
+            <span
+              class="
+                ud-font-bold ud-text-primary ud-text-lg
+                md:ud-text-xl
+                ud-mb-3
+              "
+            >
+              ABOUT ME
+            </span>
+            <h2
+              class="
+                ud-max-w-[400px] ud-font-bold ud-text-black ud-text-3xl
+                sm:ud-text-4xl
+                md:ud-text-[45px]
+                ud-leading-tight
+                sm:ud-leading-tight
+                md:ud-leading-tight
+                ud-mb-5
+              "
+            >
+              Teamspieler, wissbegierig und lustig
+            </h2>
+            <p
+              class="
+                ud-max-w-[570px] ud-font-medium ud-text-base ud-text-body-color
+              "
+            >
+              diese drei Wörter würden mich am Besten beschreiben.
+              Schon in der Schulzeit interessierte ich mich für das Programmieren.
+              Jetzt will ich mein Wissen erweitern und mich professionalisieren.
+              Die ersten Zeilen schrieb ich in Arduino und war direkt fasziniert, was ein paar Codezeilen erschaffen können.
+              Das motivierte mich auch außerhalb der Schule zu progammieren und weitere Sprachen zu lernen.
+            </p>
+          </div>
+          <div class="ud-w-full lg:ud-w-1/2 xl:ud-w-5/12 ud-px-4">
+            <h3
+              class="
+                ud-font-semibold ud-text-black ud-text-2xl
+                md:ud-text-3xl
+                ud-mb-6
+              "
+            >
+              Fun Facts
+            </h3>
+
+              <div class="column">
+                <img src="https://img.icons8.com/material-rounded/24/000000/chevron-right.png"/>
+              </div>
+                <p class="ud-font-medium ud-text-base ud-text-body-color ud-mb-5">
+                    Pizza Hawai sollte strafbar sein
+                  </p>
+            <div class="column">
+              <img src="https://img.icons8.com/material-rounded/24/000000/chevron-right.png"/>
+            </div>
+            <p class="ud-font-medium ud-text-base ud-text-body-color ud-mb-5">
+              Paulaner Spezi ist das beste Getränk
+            </p>
+
+            <div class="column">
+              <img src="https://img.icons8.com/material-rounded/24/000000/chevron-right.png"/>
+            </div>
+            <p class="ud-font-medium ud-text-base ud-text-body-color ud-mb-5">
+              Ich bin 50 km in der israelischen Wüste gewandert
+            </p>
+            <div class="column">
+              <img src="https://img.icons8.com/material-rounded/24/000000/chevron-right.png"/>
+            </div>
+            <p class="ud-font-medium ud-text-base ud-text-body-color ud-mb-5">
+              Sprachmemos über einer Minute können durch Telefonate ersetzt werden
+            </p>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="ud-absolute ud-right-0 ud-top-1/2 -translate-y-1/2">
+        <svg
+          width="60"
+          height="120"
+          viewBox="0 0 60 120"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="60" cy="60" r="60" fill="url(#paint0_radial_18:24)" />
+          <defs>
+            <radialGradient
+              id="paint0_radial_18:24"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(60) rotate(90) scale(120)"
+            >
+              <stop stop-color="white" />
+              <stop offset="0.569" stop-color="#F0F4FD" />
+              <stop offset="0.993" stop-color="#D9E0F0" />
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+    </section>
+    <!-- ====== About Section End  -->
+
+    <!-- ====== Services Section Start  -->
+
+    <!-- ====== Services Section End  -->
+
+
+
+    <!-- ====== Education Section Start  -->
+    <section
+      id="education"
+      class="ud-pt-[120px] ud-bg-white ud-relative ud-z-10"
+    >
+      <div class="ud-container">
+        <div class="ud-border-b ud-border-[#E9ECF8] ud-pb-[70px]">
+          <div class="ud-flex ud-flex-wrap ud-mx-[-16px]">
+            <div class="ud-w-full ud-px-4">
+
+              <div
+                      class="ud-max-w-[600px] ud-mx-auto ud-text-center ud-mb-[70px]"
+              >
+
+                <h2
+                        class="
+                    ud-font-bold ud-text-black ud-text-3xl
+                    sm:ud-text-4xl
+                    md:ud-text-[45px]
+                    ud-mb-10
+                  "
+                >
+                  Mein Lebenslauf
+                </h2>
+
+                <span
+                        class="
+                    ud-font-medium ud-text-xl ud-text-primary ud-block ud-mb-2
+                  "
+                >
+                  Bildungsweg & Berufserfahrung
+                </span>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ud-relative ud-pt-12">
+            <span
+              class="
+                ud-absolute ud-top-0 ud-block ud-left-2
+                lg:ud-left-1/2
+                ud-w-[1px] ud-h-full ud-bg-[#d7dfff]
+              "
+            ></span>
+
+            <div class="ud-flex ud-flex-wrap ud--mx-4">
+              <div class="ud-w-full lg:ud-w-1/2 ud-px-4">
+                <div
+                  class="
+                    lg:ud-max-w-[428px]
+                    xl:ud-max-w-[490px]
+                    ud-w-full ud-ml-auto ud-pl-8
+                    sm:ud-pl-11
+                    lg:ud-pl-0 lg:ud-pr-0 lg:ud-mr-5 lg:ud-text-right
+                    ud-relative ud-pb-12
+                  "
+                >
+                  <span
+                    class="
+                      ud-absolute ud-top-1 ud-left-0
+                      lg:ud-left-auto lg:ud--right-11
+                      ud-w-4
+                      ud-h-4
+                      ud-rounded-full
+                      ud-bg-white
+                      ud-border-4
+                      ud-border-primary
+                    "
+                  ></span>
+                  <h3 class="ud-font-semibold ud-text-xl ud-text-black ud-mb-1">
+                    Jung Leuchten/Ferienjob
+                  </h3>
+                  <p
+                          class="
+                      ud-font-semibold ud-text-base ud-text-body-color ud-mb-3
+                    "
+                  >
+                    Bodelshausen
+                  </p>
+                  <span
+                          class="
+                      ud-inline-flex
+                      ud-items-center
+                      ud-justify-center
+                      ud-py-2
+                      ud-px-4
+                      ud-rounded-full
+                      ud-bg-primary
+                      ud-text-white
+                      ud-text-xs
+                      ud-font-semibold
+                      ud-mb-5
+                    "
+                  >
+                    2018 | 2 Wochen
+                  </span>
+                  <p class="ud-font-medium ud-text-base ud-text-body-color">
+                    Ich durfte zwei Wochen in der Montage Leuchten zusammenbauen. Vom
+                    Gehäuse bis zur Leuchte selbst konnte ich den Entstehungsprozess
+                    beobachten und mitgestalten.
+                  </p>
+                </div>
+              </div>
+              <div class="ud-w-full lg:ud-w-1/2 ud-px-4"></div>
+              <div class="ud-w-full lg:ud-w-1/2 ud-px-4"></div>
+              <div class="ud-w-full lg:ud-w-1/2 ud-px-4">
+                <div
+                        class="
+                    lg:ud-max-w-[428px]
+                    xl:ud-max-w-[490px]
+                    ud-w-full ud-pl-8
+                    sm:ud-pl-11
+                    lg:ud-pl-0 lg:ud-ml-5
+                    ud-relative ud-pb-12
+                  "
+                >
+                  <span
+                          class="
+                      ud-absolute ud-top-1 ud-left-0
+                      lg:ud--left-11
+                      ud-w-4
+                      ud-h-4
+                      ud-rounded-full
+                      ud-bg-white
+                      ud-border-4
+                      ud-border-primary
+                    "
+                  ></span>
+                  <h3 class="ud-font-semibold ud-text-xl ud-text-black ud-mb-1">
+                    Abitur/Ev. Firstwald Gymnasium
+                  </h3>
+                  <p
+                          class="
+                      ud-font-semibold ud-text-base ud-text-body-color ud-mb-3
+                    "
+                  >
+                    Mössingen
+                  </p>
+                  <span
+                          class="
+                      ud-inline-flex
+                      ud-items-center
+                      ud-justify-center
+                      ud-py-2
+                      ud-px-4
+                      ud-rounded-full
+                      ud-bg-primary
+                      ud-text-white
+                      ud-text-xs
+                      ud-font-semibold
+                      ud-mb-5
+                    "
+                  >
+                    2020
+                  </span>
+                  <p class="ud-font-medium ud-text-base ud-text-body-color">
+                    Ich habe das Abitur mit den Leistungsfächern Geschichte und Physi,
+                    welches ich auch in der Abiturprüfung als Schwerpunkt hatte, absolviert.
+                  </p>
+                </div>
+              </div>
+
+              <div class="ud-w-full lg:ud-w-1/2 ud-px-4">
+                 <div
+                         class="
+                           lg:ud-max-w-[428px]
+                           xl:ud-max-w-[490px]
+                           ud-w-full ud-ml-auto ud-pl-8
+                           sm:ud-pl-11
+                           lg:ud-pl-0 lg:ud-pr-0 lg:ud-mr-5
+                           lg:ud-text-right
+                           ud-relative ud-pb-12
+                         "
+                 >
+                  <span
+                          class="
+                             ud-absolute ud-top-1 ud-left-0
+                             lg:ud-left-auto lg:ud--right-11
+                             ud-w-4
+                             ud-h-4
+                             ud-rounded-full
+                             ud-bg-white
+                             ud-border-4
+                             ud-border-primary
+                          "
+                  ></span>
+
+                  <h3 class="ud-font-semibold ud-text-xl ud-text-black ud-mb-1">
+                    DISATEL/Aushilfe in der Kundenbetreuung
+                  </h3>
+                  <p
+                    class="
+                      ud-font-semibold ud-text-base ud-text-body-color ud-mb-3
+                    "
+                  >
+                    Dußlingen
+                  </p>
+                  <span
+                    class="
+                      ud-inline-flex
+                      ud-items-center
+                      ud-justify-center
+                      ud-py-2
+                      ud-px-4
+                      ud-rounded-full
+                      ud-bg-primary
+                      ud-text-white
+                      ud-text-xs
+                      ud-font-semibold
+                      ud-mb-5
+                    "
+                  >
+                    2021-2022
+                  </span>
+                  <p class="ud-font-medium ud-text-base ud-text-body-color">
+                    DISATEL ist eine Kommunikations GmbH & Co. KG, die Produkte und
+                    Lösungen im Bereich Mobilfunk, Festnetz und Energie anbietet. Ich
+                    habe Kundendaten und Kunden selbst betreut und beraten. Dabei habe
+                    ich viel über Mobilfunk und Internet gelernt.
+                  </p>
+                 </div>
+                </div>
+
+              <div class="ud-w-full lg:ud-w-1/2 ud-px-4"></div>
+              <div class="ud-w-full lg:ud-w-1/2 ud-px-4"></div>
+              <div class="ud-w-full lg:ud-w-1/2 ud-px-4">
+
+                <div
+                  class="
+                    lg:ud-max-w-[428px]
+                    xl:ud-max-w-[490px]
+                    ud-w-full ud-pl-8
+                    sm:ud-pl-11
+                    lg:ud-pl-0 lg:ud-ml-5
+                    ud-relative ud-pb-12
+                  "
+                >
+                  <span
+                    class="
+                      ud-absolute ud-top-1 ud-left-0
+                      lg:ud--left-11
+                      ud-w-4
+                      ud-h-4
+                      ud-rounded-full
+                      ud-bg-white
+                      ud-border-4
+                      ud-border-primary
+                    "
+                  ></span>
+                  <h3 class="ud-font-semibold ud-text-xl ud-text-black ud-mb-1">
+                    KEMMLIT Bauelemente
+                  </h3>
+                  <p
+                    class="
+                      ud-font-semibold ud-text-base ud-text-body-color ud-mb-3
+                    "
+                  >
+                    Dußlingen
+                  </p>
+                  <span
+                    class="
+                      ud-inline-flex
+                      ud-items-center
+                      ud-justify-center
+                      ud-py-2
+                      ud-px-4
+                      ud-rounded-full
+                      ud-bg-primary
+                      ud-text-white
+                      ud-text-xs
+                      ud-font-semibold
+                      ud-mb-5
+                    "
+                  >
+                    September 2022
+                  </span>
+                  <p class="ud-font-medium ud-text-base ud-text-body-color">
+                    KEMMLIT zählt zum europaweit größten Anbieter von Sanitärtrennwänden.
+                    Außerdem konstruiert, produziert und vertreibt KEMMLIT Spinde und Schließfächer sowie Reinraum-Möbel.
+                    Bei KEMMLIT durfte ich in der Abteilung Kalkulation arbeiten und konnte dort Einblicke in die Abläufe
+                    der Bearbeitung eines Auftrages erhalten. Dabei habe ich einiges über die Finanzabläufe hinter den Aufträgen gelernt.
+
+
+                  </p>
+                </div>
+              </div>
+              <div class="ud-w-full lg:ud-w-1/2 ud-px-4"></div>
+              <div class="ud-w-full lg:ud-w-1/2 ud-px-4"></div>
+              <div class="ud-w-full lg:ud-w-1/2 ud-px-4">
+                <div
+                  class="
+                    lg:ud-max-w-[428px]
+                    xl:ud-max-w-[490px]
+                    ud-w-full ud-pl-8
+                    sm:ud-pl-11
+                    lg:ud-pl-0 lg:ud-ml-5
+                    ud-relative ud-pb-12
+                  "
+                >
+
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="ud-flex ud-flex-wrap ud-mx-[-16px]">
+          <div class="ud-w-full ud-px-4">
+            <div
+                    class="ud-max-w-[600px] ud-mx-auto ud-text-center ud-mb-[50px]"
+            >
+
+        <h3
+                class="ud-font-medium ud-text-primary
+                    ud-text-xl
+                    ud-text-center
+
+                    ud-mb-5
+                    ud-mt-10
+                  "
+        >
+          Meine Fähigkeiten
+        </h3>
+        <p class="ud-font-medium ud-text-lg ud-text-body-color ud-text-center ud-inline-block ud-right-8 ud-left-8">
+          Ich habe für 7 Monate in einem Dorf für Menschen mit Behinderung in Israel gearbeitet.
+          Dabei konnte ich meine Sozialkompetenz erweitern und lernte zum Beispiel, echte Empathie zu leben und die Bedürfnisse meiner Mitmenschen frühzeitig zu erkennen.
+          Bereits während meiner Zeit im Ausland begann ich mich sehr für das Programmieren zu interessieren.
+          Deshalb fing ich an, mir einige Grundkenntnisse in den Sprachen Java, Javascript und Dart anzueignen.
+          In meiner Freizeit engagiere ich mich in einer christlichen Gemeinde und bediene dort den Streamingdienst.
+        </p>
+        </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div>
+        <span class="ud-absolute ud-right-0 ud-top-0 ud-z-0">
+          <svg
+            width="455"
+            height="1307"
+            viewBox="0 0 455 1307"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              opacity="0.08"
+              width="332.05"
+              height="1060.35"
+              transform="matrix(-0.632736 -0.774367 -0.774367 0.632736 1031.2 139.128)"
+              fill="url(#paint0_linear_0:1)"
+            />
+            <rect
+              opacity="0.08"
+              width="509.849"
+              height="1060.35"
+              transform="matrix(-0.632736 -0.774367 -0.774367 0.632736 1293.7 635.81)"
+              fill="url(#paint1_linear_0:1)"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_0:1"
+                x1="166.025"
+                y1="0"
+                x2="166.025"
+                y2="1060.35"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+              <linearGradient
+                id="paint1_linear_0:1"
+                x1="254.924"
+                y1="0"
+                x2="254.924"
+                y2="1060.35"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="ud-absolute ud-left-0 ud-bottom-0 ud-z-[-1]">
+          <svg
+            width="416"
+            height="1453"
+            viewBox="0 0 416 1453"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              opacity="0.08"
+              width="332.05"
+              height="1030.82"
+              transform="matrix(0.632736 0.774368 0.774368 -0.632736 -603 1507.24)"
+              fill="url(#paint0_linear_0:1)"
+            />
+            <rect
+              opacity="0.08"
+              width="791.583"
+              height="1060.35"
+              transform="matrix(0.632736 0.774368 0.774368 -0.632736 -906.263 670.922)"
+              fill="url(#paint1_linear_0:1)"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_0:1"
+                x1="166.025"
+                y1="0"
+                x2="166.025"
+                y2="1030.82"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+              <linearGradient
+                id="paint1_linear_0:1"
+                x1="395.791"
+                y1="0"
+                x2="395.791"
+                y2="1060.35"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#4A6CF7" />
+                <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+      </div>
+    </section>
+    <!-- ====== Education Section End  -->
+
+    <!-- ====== Pricing Section Start  -->
+
+    <!-- ====== Pricing Section End  -->
+
+    <!-- ====== Testimonial Section Start  -->
+    <section id="testimonial" class="ud-pt-[120px] ud-pb-20">
+      <div class="ud-container">
+        <div class="ud-flex ud-flex-wrap ud-mx-[-16px]">
+          <div class="ud-w-full ud-px-4">
+            <div
+              class="ud-max-w-[600px] ud-mx-auto ud-text-center ud-mb-[50px]"
+            >
+              <span
+                class="
+                  ud-font-semibold ud-text-lg ud-text-primary ud-block ud-mb-2
+                "
+              >
+                Perspektivwechsel
+              </span>
+              <h2
+                class="
+                  ud-font-bold ud-text-black ud-text-3xl
+                  sm:ud-text-4xl
+                  md:ud-text-[45px]
+                  ud-mb-5
+                "
+              >
+                Was sagen andere über mich
+              </h2>
+              <p class="ud-font-medium ud-text-lg ud-text-body-color">
+                Ich habe meine Freunde gefragt wie sie mich in
+                einem Satz beschreiben würden.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="ud-flex ud-flex-wrap ud--mx-4">
+          <div class="ud-w-full lg:ud-w-1/2 ud-px-4">
+            <div
+              class="
+                ud-bg-white ud-rounded-xl ud-relative ud-overflow-hidden ud-px-7
+                sm:ud-px-10
+                ud-p-10 ud-shadow-testimonial ud-mb-10
+              "
+            >
+              <div class="ud-mb-5">
+
+              </div>
+              <p class="ud-font-medium ud-text-lg ud-text-body-color ud-mb-2">
+                Leo ist ein guter Freund, der es immer schafft gute Laune mitzubringen
+                und sich in kurzer Zeit neue Skills aneignen kann.
+              </p>
+              <div class="ud-flex ud-items-center">
+                <div
+                  class="
+                    ud-max-w-[60px]
+                    ud-w-full
+                    ud-h-[60px]
+                    ud-rounded-full
+                    ud-overflow-hidden
+                    ud-mr-3
+                  "
+                >
+                  <img src="./images/testimonial/image-7.png">
+                </div>
+                <div class="ud-flex ud-items-center">
+                  <h3
+                          class="ud-flex ud-font-semibold ud-text-base ud-text-black ud-mb-1"
+                  >
+                    Pavel Hegler
+                  </h3>
+
+                </div>
+
+              </div>
+              <div class="ud-absolute ud-bottom-8 ud-right-8">
+                <svg
+                  width="51"
+                  height="29"
+                  viewBox="0 0 51 29"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g opacity="0.15">
+                    <path
+                      d="M12.4311 0.00142075C7.14984 -0.0798293 2.35609 3.33267 1.21859 7.96392C0.568593 10.8077 1.13734 13.6514 2.84359 15.9264C4.63109 18.3639 7.39359 19.9077 10.4811 20.3139L13.3248 27.3014C13.6498 28.0327 14.3811 28.5202 15.1936 28.5202C16.0061 28.5202 16.7373 28.0327 17.0623 27.3014C17.5498 26.0827 18.1186 24.7827 18.6873 23.5639C20.0686 20.4764 21.4498 17.3077 22.5061 14.0577C23.6436 10.6452 23.1561 6.98892 21.2061 4.22642C19.2561 1.54517 16.1686 0.0826707 12.4311 0.00142075ZM19.8248 13.2452C18.7686 16.3327 17.3873 19.5014 16.0873 22.5077C15.8436 23.1577 15.5186 23.7264 15.2748 24.3764L12.5123 17.7139L11.6186 17.6327C9.01859 17.4702 6.58109 16.1702 5.19984 14.3014C3.98109 12.6764 3.57484 10.6452 4.06234 8.69517C4.87484 5.36392 8.36859 2.92642 12.3498 2.92642H12.4311C15.1936 2.92642 17.4686 4.06392 18.9311 6.01392C20.3123 7.96392 20.6373 10.7264 19.8248 13.2452Z"
+                      fill="#4A6CF7"
+                    />
+                    <path
+                      d="M49.0747 4.30772C47.1247 1.54522 44.0372 0.00146484 40.2997 0.00146484C40.2185 0.00146484 40.2185 0.00146484 40.1372 0.00146484C34.9372 0.00146484 30.2247 3.41397 29.0872 7.96397C28.4372 10.8077 29.006 13.6515 30.7122 16.0077C32.4997 18.4452 35.2622 19.989 38.3497 20.3952L41.1935 27.3827C41.5185 28.114 42.2497 28.6015 43.0622 28.6015C43.8747 28.6015 44.606 28.114 44.931 27.3827C45.4185 26.164 45.9872 24.864 46.556 23.6452C47.9372 20.5577 49.3185 17.389 50.3747 14.139C51.5122 10.8077 51.0247 7.07022 49.0747 4.30772ZM47.6935 13.2452C46.6372 16.3327 45.256 19.5015 43.956 22.5077C43.7122 23.1577 43.3872 23.7265 43.1435 24.3765L40.381 17.714L39.4872 17.6327C36.8872 17.4702 34.4497 16.1702 33.0685 14.3015C31.8497 12.6765 31.4435 10.6452 31.931 8.61397C32.7435 5.28272 36.2372 2.84521 40.2185 2.84521H40.2997C43.0622 2.84521 45.3372 3.98272 46.7997 5.93272C48.181 7.96397 48.506 10.7265 47.6935 13.2452Z"
+                      fill="#4A6CF7"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="ud-w-full lg:ud-w-1/2 ud-px-4">
+            <div
+              class="
+                ud-bg-white ud-rounded-xl ud-relative ud-overflow-hidden ud-px-7
+                sm:ud-px-10
+                ud-p-10 ud-shadow-testimonial ud-mb-10
+              "
+            >
+
+
+              <p class="ud-font-medium ud-text-lg ud-text-body-color ud-mb-8">
+                Leo liebt es, sich in technische Sachverhalte einzuarbeiten sie zu verstehen um dann selbst in der Lage zu sein, sie umzusetzen.
+              </p>
+              <div class="ud-flex ud-items-center">
+                <div
+                  class="
+                    ud-max-w-[60px]
+                    ud-w-full
+                    ud-h-[60px]
+                    ud-rounded-full
+                    ud-overflow-hidden
+                    ud-mr-3
+                  "
+                >
+                  <img src="./images/testimonial/image-5.png">
+                </div>
+                <div class="ud-flex ud-items-center">
+                  <h3
+                    class="ud-flex ud-font-semibold ud-text-base ud-text-black ud-mb-1"
+                  >
+                    Felix Kunze
+                  </h3>
+
+                </div>
+              </div>
+              <div class="ud-absolute ud-bottom-8 ud-right-8">
+                <svg
+                  width="51"
+                  height="29"
+                  viewBox="0 0 51 29"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g opacity="0.15">
+                    <path
+                      d="M12.4311 0.00142075C7.14984 -0.0798293 2.35609 3.33267 1.21859 7.96392C0.568593 10.8077 1.13734 13.6514 2.84359 15.9264C4.63109 18.3639 7.39359 19.9077 10.4811 20.3139L13.3248 27.3014C13.6498 28.0327 14.3811 28.5202 15.1936 28.5202C16.0061 28.5202 16.7373 28.0327 17.0623 27.3014C17.5498 26.0827 18.1186 24.7827 18.6873 23.5639C20.0686 20.4764 21.4498 17.3077 22.5061 14.0577C23.6436 10.6452 23.1561 6.98892 21.2061 4.22642C19.2561 1.54517 16.1686 0.0826707 12.4311 0.00142075ZM19.8248 13.2452C18.7686 16.3327 17.3873 19.5014 16.0873 22.5077C15.8436 23.1577 15.5186 23.7264 15.2748 24.3764L12.5123 17.7139L11.6186 17.6327C9.01859 17.4702 6.58109 16.1702 5.19984 14.3014C3.98109 12.6764 3.57484 10.6452 4.06234 8.69517C4.87484 5.36392 8.36859 2.92642 12.3498 2.92642H12.4311C15.1936 2.92642 17.4686 4.06392 18.9311 6.01392C20.3123 7.96392 20.6373 10.7264 19.8248 13.2452Z"
+                      fill="#4A6CF7"
+                    />
+                    <path
+                      d="M49.0747 4.30772C47.1247 1.54522 44.0372 0.00146484 40.2997 0.00146484C40.2185 0.00146484 40.2185 0.00146484 40.1372 0.00146484C34.9372 0.00146484 30.2247 3.41397 29.0872 7.96397C28.4372 10.8077 29.006 13.6515 30.7122 16.0077C32.4997 18.4452 35.2622 19.989 38.3497 20.3952L41.1935 27.3827C41.5185 28.114 42.2497 28.6015 43.0622 28.6015C43.8747 28.6015 44.606 28.114 44.931 27.3827C45.4185 26.164 45.9872 24.864 46.556 23.6452C47.9372 20.5577 49.3185 17.389 50.3747 14.139C51.5122 10.8077 51.0247 7.07022 49.0747 4.30772ZM47.6935 13.2452C46.6372 16.3327 45.256 19.5015 43.956 22.5077C43.7122 23.1577 43.3872 23.7265 43.1435 24.3765L40.381 17.714L39.4872 17.6327C36.8872 17.4702 34.4497 16.1702 33.0685 14.3015C31.8497 12.6765 31.4435 10.6452 31.931 8.61397C32.7435 5.28272 36.2372 2.84521 40.2185 2.84521H40.2997C43.0622 2.84521 45.3372 3.98272 46.7997 5.93272C48.181 7.96397 48.506 10.7265 47.6935 13.2452Z"
+                      fill="#4A6CF7"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!-- ====== Testimonial Section End  -->
+
+    <!-- ====== Blog Section Start  -->
+    <section id="Downloads" class="ud-pt-[120px] ud-pb-20 ud-bg-[#f8f9ff]">
+      <div class="ud-container">
+        <div class="ud-flex ud-flex-wrap ud-mx-[-16px]">
+          <div class="ud-w-full ud-px-4">
+            <div
+              class="ud-max-w-[600px] ud-mx-auto ud-text-center ud-mb-[50px]"
+            >
+
+              <h2
+                class="
+                  ud-font-bold ud-text-black ud-text-3xl
+                  sm:ud-text-4xl
+                  md:ud-text-[45px]
+                  ud-mb-5
+                "
+              >
+                Downloads
+              </h2>
+              <p class="ud-font-medium ud-text-lg ud-text-body-color">
+                Hier können Sie wichtige Dokumente herunterladen
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="ud-flex ud--mx-4">
+          <div class="ud-w-full lg:ud-w-1/2 xl:ud-w-1/2 ud-px-4">
+            <div
+              class="
+                ud-bg-white
+                ud-rounded-xl
+                ud-overflow-hidden
+                ud-mb-10
+                ud-shadow-blog
+              "
+            >
+              <a  class="ud-block">
+                <img
+                  src="./images/news/Abitur.jpg"
+                  alt="image"
+                  class="ud-w-full"
+                />
+              </a>
+              <div class="ud-py-8 ud-px-6 sm:ud-px-11">
+                <h3>
+                  <a
+
+                    class="
+                      ud-font-semibold ud-text-xl ud-text-black
+                      ud-truncate ud-mb-3 ud-block
+                    "
+                  >
+                    Abitur
+                  </a>
+                </h3>
+                <p
+                  class="ud-font-medium ud-text-body-color ud-text-base ud-mb-4"
+                >
+                 Hier können Sie sich mein Abitur-Zeugnis als PDF-Datei herunterladen.
+                </p>
+                <a
+                  href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:3ea5327c-7f08-3fb0-b48d-d1962145e78f" target="_blank" download
+                  class="
+                    ud-font-medium ud-text-sm ud-text-black ud-underline
+                    hover:ud-text-primary hover:ud-no-underline
+                  "
+                >
+                  Herunterladen
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="ud-w-full lg:ud-w-1/2 xl:ud-w-1/2 ud-px-4">
+            <div
+              class="
+                ud-bg-white
+                ud-rounded-xl
+                ud-overflow-hidden
+                ud-mb-10
+                ud-shadow-blog
+              "
+            >
+              <a  class="ud-block">
+                <img
+                  src="./images/news/ADI.jpg"
+                  alt="image"
+                  class="ud-w-full"
+                />
+              </a>
+              <div class="ud-py-8 ud-px-6 sm:ud-px-11">
+                <h3>
+                  <a
+
+                    class="
+                      ud-font-semibold ud-text-xl ud-text-black
+
+                      ud-block ud-mb-3 ud-truncate
+                    "
+                  >
+                    Internationales IjFD
+                  </a>
+                </h3>
+                <p
+                  class="ud-font-medium ud-text-body-color ud-text-base ud-mb-4"
+                >
+                  Hier können Sie mein Auszeichnung meines 7 monatiges IjFd herunterladen
+                </p>
+                <a
+                        href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:74cb7733-a782-3173-96c9-e7d4eba42fe8" target="_blank" download
+                  class="
+                    ud-font-medium ud-text-sm ud-text-black ud-underline
+                    hover:ud-text-primary hover:ud-no-underline
+                  "
+                >
+                  Herunterladen
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Blog Section End  -->
+
+    <!-- ====== Contact Section Start  -->
+
+    <!-- ====== Contact Section End  -->
+    <section id="contact" class="ud-py-[120px]">
+      <div class="ud-container">
+        <div
+                class="
+            ud-bg-primary
+            ud-rounded-md
+            ud-relative
+            ud-overflow-hidden
+            ud-z-10
+            ud-text-center
+            ud-py-[70px]
+          "
+        >
+          <div class="ud-max-w-[780px] ud-mx-auto ud-px-6">
+            <h2
+                    class="
+                ud-font-bold ud-text-white ud-text-2xl
+                md:ud-text-[40px]
+                ud-leading-tight ud-mb-20
+              "
+            >
+              Habe ich Ihre Aufmerksamkeit geweckt?
+              Dann würde ich mich freuen mit Ihnen in Kontakt zu treten.
+
+            </h2>
+            <div class="ud-flex ud--mx-4">
+
+            <div class="ud-w-full lg:ud-w-1/2 ud-px-4">
+              <div
+                      class="
+                ud-bg-white ud-rounded-xl ud-relative ud-overflow-hidden ud-px-7
+                sm:ud-px-10
+                ud-p-10 ud-shadow-testimonial ud-mb-2
+              "
+              >
+
+                <p class="ud-font-bold ud-text-lg ud-text-blue ud-mb-10 ud-text-bold">
+                  Kontaktieren Sie ich gerne per E-Mail
+                </p>
+                <div class="">
+                  <div
+                          class="
+                          ud-mb-0
+
+                    ud-w-[60px]
+
+
+                    ud-h-[50px]
+
+                    ud-mr-3
+                  "
+                  >
+                    <a class="
+
+                  ud-bg-primary
+                  ud-text-white
+                  ud-text-center
+                  ud-object-center
+                  ud-rounded-full
+                  ud-font-semibold
+                  ud-text-base
+                  ud-py-5
+                  sm:ud-py-[20px]
+                  ud-px-9
+                  ud-mb-1
+                  hover:ud-bg-opacity-90
+                  ud-transition ud-ease-in-out ud-duration-300
+
+
+                  ud-right-9" href="mailto:leoebe2@gmail.com">E-Mail</a>
+
+                  </div>
+
+
+
+
+
+                </div>
+
+              </div>
+            </div>
+            <div class="ud-w-full lg:ud-w-1/2 ud-px-4">
+              <div
+                      class="
+                ud-bg-white ud-rounded-xl ud-relative ud-overflow-hidden ud-px-7
+                sm:ud-px-10
+                ud-p-10 ud-shadow-testimonial ud-mb-2
+              "
+              >
+
+                <p class="ud-font-bold ud-text-lg ud-text-blue ud-mb-6 ud-text-bold">
+                  Oder Sie rufen mich persönlich an
+                </p>
+                <div class="">
+                  <div
+                          class="
+                          ud-mb-0
+
+                    ud-w-[60px]
+
+
+                    ud-h-[50px]
+
+                    ud-mr-3
+                  "
+                  >
+                    <div class="column2">
+                      <img src="./images/logo/telefon-icon_32x32.png"/>
+                    </div>
+                    <p class="column2 ud-font-semibold ud-text-primary float: ud-top-0">
+                      "+491639188005"
+
+                    </p>
+
+
+                  </div>
+
+
+
+
+
+                </div>
+
+              </div>
+            </div>
+            </div>
+
+
+
+
+
+
+
+
+            </form>
+          </div>
+
+          <div
+                  class="
+              ud-absolute ud-bottom-0 ud-left-0 ud-right-0 ud-w-full ud--z-1
+            "
+          >
+            <svg
+                    width="1018"
+                    height="486"
+                    viewBox="0 0 818 286"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="ud-mx-auto"
+            >
+              <circle
+                      cx="409"
+                      cy="409"
+                      r="408.5"
+                      stroke="url(#paint0_linear_0:1)"
+              />
+              <circle
+                      cx="409"
+                      cy="409"
+                      r="349.5"
+                      stroke="url(#paint1_linear_0:1)"
+              />
+              <defs>
+                <linearGradient
+                        id="paint0_linear_0:1"
+                        x1="-34.5"
+                        y1="291.5"
+                        x2="851"
+                        y2="291.5"
+                        gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="white" stop-opacity="0.35" />
+                  <stop offset="0.218415" stop-color="white" stop-opacity="0" />
+                  <stop offset="0.728079" stop-color="white" stop-opacity="0" />
+                  <stop offset="1" stop-color="white" stop-opacity="0.35" />
+                </linearGradient>
+                <linearGradient
+                        id="paint1_linear_0:1"
+                        x1="29.4768"
+                        y1="308.45"
+                        x2="787.24"
+                        y2="308.45"
+                        gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="white" stop-opacity="0.35" />
+                  <stop offset="0.218415" stop-color="white" stop-opacity="0" />
+                  <stop offset="0.777261" stop-color="white" stop-opacity="0" />
+                  <stop offset="1" stop-color="white" stop-opacity="0.35" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====== Footer Section Start  -->
+    <footer class="ud-bg-black ud-pt-[100px] ud-pb-12 ud-relative ud-z-10">
+      <div class="ud-container">
+        <div class="ud-flex ud-flex-wrap ud--mx-4">
+          <div class="ud-w-full md:ud-w-1/2 lg:ud-w-4/12 ud-px-4">
+            <div class="ud-mb-10">
+              <h2
+                class="
+                  ud-font-bold
+                  ud-text-white
+                  ud-text-[44px]
+                  ud-leading-tight
+                  ud-mb-5
+                "
+              >
+                Deep End
+              </h2>
+              <h3
+                class="
+                  ud-font-bold ud-text-white ud-opacity-70 ud-text-2xl ud-mb-2
+                "
+              >
+                Kontakt Infos
+              </h3>
+              <p class="ud-font-medium ud-text-base ud-text-body-color ud-mb-1">
+                leoebe2@gmail.com
+              </p>
+              <p class="ud-font-medium ud-text-base ud-text-body-color ud-mb-1">
+                Traystr. 11/1, Bodelshausen
+              </p>
+              <p class="ud-font-medium ud-text-base ud-text-body-color ud-mb-1">
+                +49 631 9188005
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+
+      <div
+        class="ud-absolute ud-left-0 ud-bottom-0 ud--z-1"
+        aria-label="shape"
+        name="shape"
+      >
+        <span class="ud-hidden">shape</span>
+        <svg
+          width="143"
+          height="138"
+          viewBox="0 0 143 138"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="25"
+            cy="118"
+            r="101"
+            stroke="url(#paint0_linear_52:83)"
+            stroke-width="34"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_52:83"
+              x1="-12.7969"
+              y1="-37.3359"
+              x2="99.2109"
+              y2="173.773"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#4A6CF7" />
+              <stop offset="1" stop-color="#4A6CF7" stop-opacity="0" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div
+        class="ud-absolute ud-right-3 ud-top-3 ud--z-1"
+        aria-label="shape"
+        name="shape"
+      >
+        <span class="ud-hidden">shape</span>
+        <svg
+          width="61"
+          height="77"
+          viewBox="0 0 61 77"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g opacity="0.5">
+            <circle
+              cx="45.0001"
+              cy="1.66667"
+              r="1.66667"
+              transform="rotate(90 45.0001 1.66667)"
+              fill="white"
+            />
+            <circle
+              cx="16.0001"
+              cy="1.66667"
+              r="1.66667"
+              transform="rotate(90 16.0001 1.66667)"
+              fill="white"
+            />
+            <circle
+              cx="59.0001"
+              cy="1.66667"
+              r="1.66667"
+              transform="rotate(90 59.0001 1.66667)"
+              fill="white"
+            />
+            <circle
+              cx="30.6668"
+              cy="1.66667"
+              r="1.66667"
+              transform="rotate(90 30.6668 1.66667)"
+              fill="white"
+            />
+            <circle
+              cx="1.66683"
+              cy="1.66667"
+              r="1.66667"
+              transform="rotate(90 1.66683 1.66667)"
+              fill="white"
+            />
+            <circle
+              cx="45.0001"
+              cy="16.3332"
+              r="1.66667"
+              transform="rotate(90 45.0001 16.3332)"
+              fill="white"
+            />
+            <circle
+              cx="16.0001"
+              cy="16.3332"
+              r="1.66667"
+              transform="rotate(90 16.0001 16.3332)"
+              fill="white"
+            />
+            <circle
+              cx="59.0001"
+              cy="16.3332"
+              r="1.66667"
+              transform="rotate(90 59.0001 16.3332)"
+              fill="white"
+            />
+            <circle
+              cx="30.6668"
+              cy="16.3332"
+              r="1.66667"
+              transform="rotate(90 30.6668 16.3332)"
+              fill="white"
+            />
+            <circle
+              cx="1.66683"
+              cy="16.3332"
+              r="1.66667"
+              transform="rotate(90 1.66683 16.3332)"
+              fill="white"
+            />
+            <circle
+              cx="45.0001"
+              cy="31.0002"
+              r="1.66667"
+              transform="rotate(90 45.0001 31.0002)"
+              fill="white"
+            />
+            <circle
+              cx="45.0001"
+              cy="74.6667"
+              r="1.66667"
+              transform="rotate(90 45.0001 74.6667)"
+              fill="white"
+            />
+            <circle
+              cx="16.0001"
+              cy="31.0002"
+              r="1.66667"
+              transform="rotate(90 16.0001 31.0002)"
+              fill="white"
+            />
+            <circle
+              cx="16.0001"
+              cy="74.6667"
+              r="1.66667"
+              transform="rotate(90 16.0001 74.6667)"
+              fill="white"
+            />
+            <circle
+              cx="59.0001"
+              cy="31.0002"
+              r="1.66667"
+              transform="rotate(90 59.0001 31.0002)"
+              fill="white"
+            />
+            <circle
+              cx="59.0001"
+              cy="74.6667"
+              r="1.66667"
+              transform="rotate(90 59.0001 74.6667)"
+              fill="white"
+            />
+            <circle
+              cx="30.6668"
+              cy="31.0002"
+              r="1.66667"
+              transform="rotate(90 30.6668 31.0002)"
+              fill="white"
+            />
+            <circle
+              cx="30.6668"
+              cy="74.6667"
+              r="1.66667"
+              transform="rotate(90 30.6668 74.6667)"
+              fill="white"
+            />
+            <circle
+              cx="1.66683"
+              cy="31.0002"
+              r="1.66667"
+              transform="rotate(90 1.66683 31.0002)"
+              fill="white"
+            />
+            <circle
+              cx="1.66683"
+              cy="74.6667"
+              r="1.66667"
+              transform="rotate(90 1.66683 74.6667)"
+              fill="white"
+            />
+            <circle
+              cx="45.0001"
+              cy="45.6667"
+              r="1.66667"
+              transform="rotate(90 45.0001 45.6667)"
+              fill="white"
+            />
+            <circle
+              cx="16.0001"
+              cy="45.6667"
+              r="1.66667"
+              transform="rotate(90 16.0001 45.6667)"
+              fill="white"
+            />
+            <circle
+              cx="59.0001"
+              cy="45.6667"
+              r="1.66667"
+              transform="rotate(90 59.0001 45.6667)"
+              fill="white"
+            />
+            <circle
+              cx="30.6668"
+              cy="45.6667"
+              r="1.66667"
+              transform="rotate(90 30.6668 45.6667)"
+              fill="white"
+            />
+            <circle
+              cx="1.66683"
+              cy="45.6667"
+              r="1.66667"
+              transform="rotate(90 1.66683 45.6667)"
+              fill="white"
+            />
+            <circle
+              cx="45.0001"
+              cy="60.3332"
+              r="1.66667"
+              transform="rotate(90 45.0001 60.3332)"
+              fill="white"
+            />
+            <circle
+              cx="16.0001"
+              cy="60.3332"
+              r="1.66667"
+              transform="rotate(90 16.0001 60.3332)"
+              fill="white"
+            />
+            <circle
+              cx="59.0001"
+              cy="60.3332"
+              r="1.66667"
+              transform="rotate(90 59.0001 60.3332)"
+              fill="white"
+            />
+            <circle
+              cx="30.6668"
+              cy="60.3332"
+              r="1.66667"
+              transform="rotate(90 30.6668 60.3332)"
+              fill="white"
+            />
+            <circle
+              cx="1.66683"
+              cy="60.3332"
+              r="1.66667"
+              transform="rotate(90 1.66683 60.3332)"
+              fill="white"
+            />
+          </g>
+        </svg>
+      </div>
+    </footer>
+    <!-- ====== Footer Section End  -->
+
+    <!-- ====== Back To Top Start -->
+    <a
+      href="javascript:void(0)"
+      class="
+        ud-hidden
+        ud-items-center
+        ud-justify-center
+        ud-bg-primary
+        ud-text-white
+        ud-w-10
+        ud-h-10
+        ud-rounded-md
+        ud-fixed
+        ud-bottom-8
+        ud-right-8
+        ud-left-auto
+        ud-z-[999]
+        hover:ud-shadow-signUp
+        ud-transition ud-duration-300
+        back-to-top
+      "
+    >
+      <span
+        class="
+          ud-w-3
+          ud-h-3
+          ud-border-t
+          ud-border-l
+          ud-border-white
+          ud-rotate-45
+          ud-mt-[6px]
+        "
+      ></span>
+    </a>
+    <!-- ====== Back To Top End -->
+
+    <!-- ====== All Scripts -->
+    <script src="js/wow.min.js"></script>
+    <script src="js/glightbox.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/images-loaded.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+      // ==== for menu scroll
+      const pageLink = document.querySelectorAll(".menu-scroll");
+
+      pageLink.forEach((elem) => {
+        elem.addEventListener("click", (e) => {
+          e.preventDefault();
+          document.querySelector(elem.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+            offsetTop: 1 - 60,
+          });
+        });
+      });
+
+      // section menu active
+      function onScroll(event) {
+        const sections = document.querySelectorAll(".menu-scroll");
+        const scrollPos =
+          window.pageYOffset ||
+          document.documentElement.scrollTop ||
+          document.body.scrollTop;
+
+        for (let i = 0; i < sections.length; i++) {
+          const currLink = sections[i];
+          const val = currLink.getAttribute("href");
+          const refElement = document.querySelector(val);
+          const scrollTopMinus = scrollPos + 73;
+          if (
+            refElement.offsetTop <= scrollTopMinus &&
+            refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
+          ) {
+            document.querySelector(".menu-scroll").classList.remove("active");
+            currLink.classList.add("active");
+          } else {
+            currLink.classList.remove("active");
+          }
+        }
+      }
+
+      window.document.addEventListener("scroll", onScroll);
+
+      // ========= glightbox
+      const myGallery = GLightbox({
+        type: "image",
+      });
+
+      //============== isotope masonry js with imagesloaded
+      imagesLoaded(".portfolio-container", function () {
+        var elem = document.querySelector(".items-wrapper");
+        var iso = new Isotope(elem, {
+          // options
+          itemSelector: ".item",
+          masonry: {
+            // use outer width of sizer for columnWidth
+            columnWidth: ".item",
+          },
+        });
+
+        let filterButtons = document.querySelectorAll(
+          ".portfolio-buttons button"
+        );
+        filterButtons.forEach((e) =>
+          e.addEventListener("click", () => {
+            let filterValue = event.target.getAttribute("data-filter");
+            iso.arrange({
+              filter: filterValue,
+            });
+          })
+        );
+      });
+
+      var elements = document.querySelectorAll(".portfolio-buttons button");
+      for (var i = 0; i < elements.length; i++) {
+        elements[i].onclick = function () {
+          var el = elements[0];
+          while (el) {
+            if (el.tagName === "BUTTON") {
+              el.classList.remove("active");
+            }
+            el = el.nextSibling;
+          }
+          this.classList.add("active");
+        };
+      }
+    </script>
+  </body>
+</html>
